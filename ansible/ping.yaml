@@ -1,0 +1,14 @@
+---
+- name: Ping hosts
+  hosts: all
+  gather_facts: no
+
+  tasks:
+  - name: Ping
+    ansible.builtin.ping:
+    register: ping_result
+
+  - name: Output Message
+    debug:
+      msg: "Ping Succesfull!"
+    when: ping_result is success
