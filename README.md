@@ -1,4 +1,4 @@
-# ssignment: Automate Network Devices with GitHub Actions
+# 02 Assignment: Automate Network Devices with GitHub Actions
 ## Overview
 In this assignment, you will create an automated workflow for managing network devices (e.g., a router and switch) using GitHub Actions and a self-hosted runner in your local lab environment.
 
